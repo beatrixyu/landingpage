@@ -63,7 +63,7 @@ header{
 }
 
 .con1-left article{
-    width:65%;
+    width: 80%;
 }
 
 .con1-left article h2{
@@ -79,6 +79,7 @@ header{
     font-family: 'Noto Serif', serif;
     color: #6B6B6B;
     line-height: 1.5;
+    text-align: justify;
 }
 
 
@@ -91,12 +92,12 @@ header{
 }
 
 .con1-right article{
-    width:80%;
+    width:75%;
     margin-bottom: 5%;
 }
 
 .con1-right img{
-    width: 45%;
+    width: 50%;
 }
 
 .con1-right article p{
@@ -104,6 +105,7 @@ header{
     font-family: 'Noto Serif', serif;
     color: #6B6B6B;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* the end of container one */
@@ -119,13 +121,19 @@ header{
         background-size:cover;
 }
 
-.container-2 main {
+/* .con2-art1, .con2-art3, .con2-art2{
     width: 100%;
     height: 60vh;
     display: flex;
     justify-content: center;
 
-}
+} */
+ .container-2 main {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+ }
 
 .container-2 main article{
     display: flex;
@@ -133,7 +141,15 @@ header{
     align-items: center;
     justify-content: center;
     width: 50%;
-}
+} 
+
+/* .con2-art1, .con2-art3, .con2-art article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+} */
 
 .container-2 main article h1{
     font-size: 35px;
@@ -161,6 +177,7 @@ header{
 
 .con2-text{
     width: 60%;
+    text-align: justify;
 }
 
 .con2-text p{
@@ -241,14 +258,15 @@ header{
     margin-top: 20%;
     width: 20%;
     height: 50px;
-    background: white;
-
+    background: red;
+    font-size: 20px;
 }
+
 .callBtn i {
     color: red;
 }
+
 .callBtn h2 {
-    font-size: 50px;
     font-family: 'Playfair Display', serif;
     font-weight: 300;
     margin: 0;
@@ -265,12 +283,137 @@ footer main{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 2%;
 }
 
+@media screen and (max-width: 768px) {
+    .intro p {
+        font-size: 32px;
+    }
 
+    .container-1{
+        height: 200vh;
+        display: inline;
+    }
 
+    .con1-left{
+        width: 100%;
+    }
+     .con1-left img{
+        width: 80%;
+    }
 
+    .con1-left article p{
+        text-align: justify;
+    }
+
+    .con1-left article h2{
+        margin: 5% 0;
+        font-size: 30px;
+    }
+
+    .con1-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .con1-right article{
+        width:80%;
+        margin-bottom: 1%;
+    }
+    
+    .con1-right img{
+        width: 50%;
+    }
+    .container-2 main {
+        width: 100%;
+        height: 100vh;
+        display: inline;
+    }
+
+    .container-2 main article {
+        width: 100%;
+    }
+
+    .con2-art1, .con2-art3{
+        width: 100%;
+        height: 100vh;
+        display: inline;
+    }
+
+    .con2-sec1-left {
+        width: 100%;
+        justify-content: center;
+        margin: 5% 0;
+    }
+
+    .con2-art2{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    .con2-sec2-img-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .con2-sec2-img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .intro p {
+        font-size: 28px;
+    }
+
+    .container-1{
+        height: 300vh;
+        display: inline;
+    }
+
+    .con1-left{
+        width: 100%;
+    }
+     .con1-left img{
+        width: 100%;
+    }
+
+    .con1-left article {
+        width: 75%;
+    }
+
+    .con1-left article h2{
+        margin: 5% 0;
+        font-size: 20px;
+    }
+
+    .con1-left article {
+        width: 80%;
+    }
+
+    .con1-left article p{
+        text-align: justify;
+    }
+
+    .con1-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .con1-right article{
+        width:80%;
+    }
+    
+    .con1-right img{
+        width: 80%;
+    }
+}
 
 
 
