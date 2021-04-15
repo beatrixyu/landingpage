@@ -88,7 +88,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:start;
+    justify-content:flex-start;
 }
 
 .con1-right article{
@@ -155,7 +155,9 @@ header{
     font-size: 35px;
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    margin: 2% 0 5% 0;}
+    margin: 2% 0 5% 0;
+    text-align: start;
+}
 
 .con2-sec1-left {
     display: flex;
@@ -246,11 +248,13 @@ header{
 }
 
 .contactsContainer{
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Dancing Script', cursive;
-    font-weight: 100;
 }
 
+.contactsContainer p{
+    margin: 0;
+}
 
 .callBtn {
     position: absolute;
@@ -283,6 +287,7 @@ footer main{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    font-family: 'Noto Serif', serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -364,6 +369,39 @@ footer main{
         justify-content: center;
     }
 
+    .con2-sec3-img-div{
+        width: 100%;
+        justify-content:center;
+    }
+
+    .con2-sec3-img {
+        width: 70%;
+    }
+    .con2-text {
+        width: 70%;
+    }
+    .con2-text h1{
+        text-align: start;
+    }
+
+    .contactsContainer p {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .contactBanner img {
+        width: 100%;
+    }
+
+    footer {
+        height: 8vh;
+    }
+    footer p{
+        font-size: 10px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 420px) {
@@ -412,6 +450,30 @@ footer main{
     
     .con1-right img{
         width: 80%;
+    }
+
+    .container-2 main {
+        height: 120vh
+    }
+
+    .con2-text {
+        width: 80%;
+    }
+
+    .con2-text h1{
+        text-align: start;
+    }
+
+    .con2-sec2-img {
+        width: 80%;
+    }
+
+    .con2-sec3-img {
+        width: 80%;
+    }
+
+    .contactsContainer h1 {
+        font-size: 35px;
     }
 }
 
