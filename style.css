@@ -291,6 +291,10 @@ footer main{
 }
 
 @media screen and (max-width: 768px) {
+    header{
+        height: 70vh;
+    }
+
     .intro p {
         font-size: 32px;
     }
@@ -329,6 +333,10 @@ footer main{
     
     .con1-right img{
         width: 50%;
+    }
+
+    .gallary{
+        height: 50vh;
     }
     .container-2 main {
         width: 100%;
@@ -405,6 +413,10 @@ footer main{
 }
 
 @media screen and (max-width: 420px) {
+    header{
+        height: 50vh;
+    }
+
     .intro p {
         font-size: 28px;
     }
@@ -454,6 +466,10 @@ footer main{
 
     .container-2 main {
         height: 120vh
+    }
+
+    .gallary{
+        height: 40vh;
     }
 
     .con2-text {
