@@ -348,6 +348,10 @@ footer main{
         width: 100%;
     }
 
+    .container-2 main article h1{
+        font-size: 28px;
+    }
+
     .con2-art1, .con2-art3{
         width: 100%;
         height: 100vh;
@@ -439,7 +443,7 @@ footer main{
 
     .con1-left article h2{
         margin: 5% 0;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .con1-left article {
@@ -489,7 +493,7 @@ footer main{
     }
 
     .contactsContainer h1 {
-        font-size: 35px;
+        font-size: 28px;
     }
 }
 
