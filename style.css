@@ -8,7 +8,7 @@ body {
 header{
     width: 100%;
     height: 100vh;
-    background-image: url('../img/bg.png');
+    background-image: url('./img/bg.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size:cover;
@@ -115,7 +115,7 @@ header{
 .gallary {
         width: 100%;
         height: 80vh;
-        background-image: url('../img/con2-gallary.png');
+        background-image: url('./img/con2-gallary.png');
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size:cover;
