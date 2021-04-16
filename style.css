@@ -14,6 +14,17 @@ header{
     background-size:cover;
 }
 
+.headerContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.headerContainer a {
+    justify-content: center;
+    align-content: flex-end;
+}
 .intro {
     width: 100%;
     height: 35vh;
@@ -50,7 +61,6 @@ header{
     width: 100%;
     height: 115vh;
     display: flex;
-
 }
 .con1-left{
     width: 50%;
@@ -115,21 +125,25 @@ header{
 /* the begin of container Two */
  .gallary {
         width: 100%;
-        height: 80vh;
+        height: 70vh;
 } 
 /* slideshow */
 .slideshow-container {
     width: 100%;
-    height: 95%;
+    height:85%;
     position: relative;
     margin: auto;
     z-index: -1;
  }
 
+.slideshow-container img{
+    height: auto;
+}
+
   .dot {
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    height: 12px;
+    width: 12px;
     margin: 0 2px;
     background-color: none;
     border: 1px solid black;
@@ -141,16 +155,8 @@ header{
   .active{
     background-color: black;
     border: 1px solid black; 
-
   }
 
-/* .con2-art1, .con2-art3, .con2-art2{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-
-} */
  .container-2 main {
     width: 100%;
     height: 70vh;
@@ -165,14 +171,6 @@ header{
     justify-content: center;
     width: 50%;
 } 
-
-/* .con2-art1, .con2-art3, .con2-art article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-} */
 
 .container-2 main article h1{
     font-size: 35px;
@@ -277,7 +275,7 @@ header{
     flex-direction: column;
 }
 .introContactsGrey {
-    height: 16vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -409,11 +407,14 @@ footer main{
     
     .con1-right img{
         width: 50%;
+        height: 100%;
+        ;
     }
 
     .gallary{
-        height: 50vh;
+        height: 40vh;
     }
+    
     .container-2 main {
         width: 100%;
         height: 100vh;
@@ -452,7 +453,7 @@ footer main{
 
     }
     .con2-sec2-img {
-        width: 50%;
+        width: 40%;
         display: flex;
         justify-content: center;
     }
@@ -567,7 +568,7 @@ footer main{
     }
 
     .gallary{
-        height: 30vh;
+        height: 25vh;
     }
 
    .slideshow-container .dot .active {
@@ -611,95 +612,32 @@ footer main{
     }
 }
 
-
-
-
-
-
-/* go-down-icon */
-#click-to-bottom {
-    /* position: fixed; */
-    bottom: 20px;
-    right: 20px;
-    background: rgb(92, 91, 91);
-    background: rgb(73, 73, 73, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  #click-to-bottom i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  #click-to-bottom:hover {
-    background: rgb(92, 91, 91);
-  }
-  #click-to-bottom:hover i {
-    color: white;
-    top: 5px;
-  }
-
   /* return to top */
 #return-to-top {
-    /* position: fixed; */
-    bottom: 20px;
-    right: 20px;
-    font-size: 50px;
-    background: rgb(92, 91, 91);
-    background: rgb(73, 73, 73, 0.7);
+    font-size: 100px;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
     display: block;
     text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
     display: none;
     z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
   #return-to-top i {
-    color: #fff;
+    color: rgb(107, 107, 107);
     margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    font-size: 30px;
   }
-  #return-to-top:hover {
-    background: rgb(92, 91, 91);
+  
+  /* click-to-bottom */
+#click-to-bottom {
+    display: block;
+    text-decoration: none;
+    display: none;
+    z-index: 999;
   }
-  #return-to-top:hover i {
-    color: #fff;
-    top: 5px;
+  #click-to-bottom i {
+    color: white;
+    margin: 0;
+    font-size: 30px;
   }
-
