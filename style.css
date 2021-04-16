@@ -113,14 +113,36 @@ header{
 
 
 /* the begin of container Two */
-.gallary {
+ .gallary {
         width: 100%;
         height: 80vh;
-        background-image: url('./img/con2-gallary.png');
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size:cover;
-}
+} 
+/* slideshow */
+.slideshow-container {
+    width: 100%;
+    height: 95%;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+ }
+
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: none;
+    border: 1px solid black;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+    z-index: 9999;
+  }
+  
+  .active{
+    background-color: black;
+    border: 1px solid black; 
+
+  }
 
 /* .con2-art1, .con2-art3, .con2-art2{
     width: 100%;
@@ -131,7 +153,7 @@ header{
 } */
  .container-2 main {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
  }
@@ -211,7 +233,8 @@ header{
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    align-items: flex-start;}
+    align-items: flex-start;
+}
 
 .con2-sec3-img{
     width: 80%;
@@ -328,7 +351,7 @@ header{
 
 /* footer */
 footer{
-    height: 20vh;
+    height: 15vh;
     color: rgb(107, 107, 107);
 }
 footer main{
@@ -544,7 +567,12 @@ footer main{
     }
 
     .gallary{
-        height: 40vh;
+        height: 30vh;
+    }
+
+   .slideshow-container .dot .active {
+        height: 5px;
+        width: 5px;
     }
 
     .con2-text {
@@ -674,3 +702,4 @@ footer main{
     color: #fff;
     top: 5px;
   }
+
