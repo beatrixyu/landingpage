@@ -1,20 +1,16 @@
-
-
-
-// ===== Scroll to bottom ==== 
+// Scroll to the text 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 10) {        
+    if ($(this).scrollTop() >= 1) {        
         $('#click-to-bottom').fadeIn(0);    
     }
   });
   $('#click-to-bottom').click(function() {      
     $('body,html').animate({
-        scrollTop : 2000                      
+        scrollTop : 1000                      
     }, 500);
   });
 
-
-// ===== Scroll to Top ==== 
+// Scroll to Top 
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        
         $('#return-to-top').fadeIn(200);    
@@ -28,8 +24,7 @@ $(window).scroll(function() {
     }, 500);
   });
 
-
-  /* Slideshow JavaScript */
+  // Slideshow
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -56,4 +51,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].classList.add("active");
 }
-/* Slideshow JavaScript */
