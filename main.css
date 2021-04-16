@@ -48,7 +48,7 @@ header{
 /* the begin of container one */
 .container-1{
     width: 100%;
-    height: 115vh;
+    height: 110vh;
     display: flex;
 
 }
@@ -263,7 +263,7 @@ header{
 .introLineContactsGrey {
     background-color: Grey;
     height: 100%;
-    width: 2px;
+    width: 2.5px;
     align-self: center;
     z-index: 9;
   }
@@ -271,7 +271,7 @@ header{
 .introLineContacts {
     background-color: white;
     height: 100%;
-    width: 2px;
+    width: 2.5px;
     align-self: center;
     z-index: 9;
   }
@@ -461,7 +461,7 @@ footer main{
 
 .callBtn {
     width: 70%;
-    /* margin-top: 10%; */
+    margin-top: 10%;
 }
 .callBtn img{
     width: 40px;
@@ -470,17 +470,12 @@ footer main{
     justify-content: center;
 }
 
+
     footer {
         height: 8vh;
     }
-
-    footer main{
-        display: block;
-        text-align: center;
-    }
-
     footer p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
 
@@ -571,15 +566,6 @@ footer main{
         width: 100%;
         height: 10%;
         margin-top: 10%;
-    }
-
-    footer main{
-        display: block;
-        text-align: center;
-    }
-
-    footer p{
-        font-size: 12px;
     }
 }
 
