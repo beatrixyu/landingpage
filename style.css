@@ -364,6 +364,34 @@ footer main{
     text-decoration: rgb(107, 107, 107);
   }
 
+  /* return to top */
+  #return-to-top {
+    font-size: 50px;
+    display: block;
+    text-decoration: none;
+    display: none;
+    z-index: 999;
+  }
+  #return-to-top i {
+    color: rgb(107, 107, 107);
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  /* click-to-bottom */
+#click-to-bottom {
+    display: block;
+    text-decoration: none;
+    display: none;
+    z-index: 999;
+  }
+  #click-to-bottom i {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+  }
+
+
 @media only screen and (max-width: 768px) {
     header{
         height: 70vh;
@@ -507,8 +535,9 @@ footer main{
         font-size: 15px;
     }
 
-
-
+    #return-to-top {
+        font-size: 30px;
+      }
 }
 
 @media only screen and (max-width: 420px) {
@@ -564,7 +593,7 @@ footer main{
     }
 
     .container-2 main {
-        height: 120vh
+        height: 110vh
     }
 
     .gallary{
@@ -610,34 +639,9 @@ footer main{
     footer p{
         font-size: 12px;
     }
+
+    #return-to-top {
+        font-size: 20px;
+      }
 }
 
-  /* return to top */
-#return-to-top {
-    font-size: 100px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: block;
-    text-decoration: none;
-    display: none;
-    z-index: 999;
-  }
-  #return-to-top i {
-    color: rgb(107, 107, 107);
-    margin: 0;
-    font-size: 30px;
-  }
-  
-  /* click-to-bottom */
-#click-to-bottom {
-    display: block;
-    text-decoration: none;
-    display: none;
-    z-index: 999;
-  }
-  #click-to-bottom i {
-    color: white;
-    margin: 0;
-    font-size: 30px;
-  }
